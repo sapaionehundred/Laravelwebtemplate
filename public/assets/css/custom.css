@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'MN';
+    src: url('../fonts/MN MINI Bold.ttf');
+  }
+
+body
+{
+    /*font-family: 'Kodchasan', sans-serif;*/
+    font-family: 'MN', sans-serif;
+}
+.mynav{
+    background-color: rgb(72, 0, 255);
+}
