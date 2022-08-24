@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     @include('backend.includes.head')
 </head>
-<body class="hold-transition sidebar-mini layout-fixed">
+<body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
     <div class="wrapper">
         <!-- Preloader -->
         <div class="preloader flex-column justify-content-center align-items-center">
@@ -17,7 +18,7 @@
             </a>
             @include('backend.includes.sidebar')
         </aside>
-        <div class="content-wrapper" style="overflow:auto">
+        <div class="content-wrapper">
             @yield('content')
         </div>
 
